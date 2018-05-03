@@ -1,158 +1,157 @@
-html{
-	position:relative;
-	min-height:100%;
+html {
+	position: relative;
+	min-height: 100%;
 }
 
-body{
-	margin:0 0 100px;	
-	background-image:url("images/background.jpg");
-	background-repeat:no-repeat;
-	background-position:center;
-	background-attachment:fixed;
+body {
+	margin: 0 0 100px;
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
-header{
-	margin-left:25px;
-	padding:5px 0 5px 5px;
-	background-color:#fff;
-	font-family:'Indie Flower',cursive,comic sans ms;
-	font-size:40pt;
+header {
+	margin-left: 25px;
+	padding: 5px 0 5px 5px;
+	background-color: #fff;
+	font-family: 'Indie Flower', cursive, comic sans ms;
+	font-size: 40pt;
 }
 
-h1{
-	margin-bottom:-20px;
-	font-family:'Indie Flower',cursive,comic sans ms;
-	font-size:25pt;
-	color:#c00;
-
+h1 {
+	margin-bottom: -20px;
+	font-family: 'Indie Flower', cursive, comic sans ms;
+	font-size: 25pt;
+	color: #c00;
 }
-nav{
-	background-color:#000;
-	padding-top:15px;
-	padding-bottom:15px;
+
+nav {
+	background-color: #111;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 form {
-	margin-top:-29px;
+	margin-top: -29px;
 }
 
-footer{
-    position:absolute;
-	bottom:0;
-	width:100%;
-	height:60px;
-	background-color:#000;
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #111;
 }
 
-#returnhome{
-	color:#c00;
-	text-decoration:none;
+#returnhome {
+	color: #c00;
+	text-decoration: none;
 }
 
-#navlist{ 
-	margin:0;
-	padding:0;
-	padding-left:100px;
-	font-family:'Architects Daughter',cursive,comic sans ms;
+#navlist {
+	margin: 0;
+	padding: 0;
+	padding-left: 100px;
+	font-family: 'Architects Daughter', cursive, comic sans ms;
 }
 
-#navlist li{ 
-	list-style:none;
-	display:inline
+#navlist li {
+	border-radius: 25px;
+	list-style: none;
+	display: inline
 }
 
-#navlist li a{
-	padding:.2em 1em;
-	padding-top:15px;
-	padding-bottom:15px;
-	color:#fff;
-	text-decoration:none;
+#navlist li a {
+	border-radius: 25px;
+	padding: .2em 1em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+	text-decoration: none;
 }
 
-#navlist li a:hover{
-	background-color:#262626;
+#navlist li a:hover {
+	background-color: #262626;
 }
 
-#search_bar{
-	margin-left:65%;
-	padding-bottom:5px;
-	padding-top:5px;
+#search_bar {
+	margin-left: 65%;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
-#content{
-	padding-top:35px;
-	padding-left:32px;
-	padding-right:25px;
-	position:relative;
+#content {
+	padding-top: 35px;
+	padding-left: 32px;
+	padding-right: 25px;
+	position: relative;
 }
 
-#trailer{
-	padding-top:30px;
-	padding-left:75px;
-	border:none;
+#trailer {
+	padding-top: 30px;
+	padding-left: 75px;
+	border: none;
 }
 
-.active{
-	background-color:#262626;
-	padding-top:15px;
-	padding-bottom:15px;
-	font-weight:bold;
+.active {
+	background-color: #262626;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: bold;
 }
 
-.black{
-	color:#000;
-}
-.content-box{
-	background-color:#e6e6e6;
-	margin-left:68px;
-	margin-right:495px;
-	height:relative;
-	padding:20px;
+.content-box {
+	background-color: #e6e6e6;
+	margin-left: 68px;
+	margin-right: 495px;
+	height: relative;
+	padding: 20px;
 }
 
-.clearfloat{
-	float:none; 
-	clear:left;
+.clearfloat {
+	float: none;
+	clear: left;
 }
 
-.colormatch{
-	font-family:'Indie Flower',cursive,comic sans ms;
-	font-size:16pt;
-	color:#c00;
+.colormatch {
+	font-family: 'Indie Flower', cursive, comic sans ms;
+	font-size: 16pt;
+	color: #c00;
 }
 
-.img-box{
-	padding-right:15px;
-	height:160px;
+.img-box {
+	padding-right: 15px;
+	height: 160px;
 }
 
-.preview-img{
-	float:left;
+.preview-img {
+	float: left;
 }
 
-.reviewlink, .reviewname{
-	text-decoration:none;
+.reviewlink, .reviewname {
+	text-decoration: none;
 }
 
-.nobullet a{
-	text-decoration:none;
+.nobullet a {
+	text-decoration: none;
 }
 
-.nobullet li{
-	list-style-type:none;
+.nobullet li {
+	list-style-type: none;
 }
 
-.reviewer{
-	font-size:12pt;
-	color:#000;
+.reviewer {
+	font-size: 12pt;
+	color: #111;
 }
 
-.return{
-	padding-top:30px;
-	padding-right:10px;
-	float:right;
-	text-decoration:none;
-	font-family:'Architects Daughter',cursive,comic sans ms;
-	font-weight:bold;
-	color:#fff;
+.return {
+	padding-top: 30px;
+	padding-right: 10px;
+	float: right;
+	text-decoration: none;
+	font-family: 'Architects Daughter', cursive, comic sans ms;
+	font-weight: bold;
+	color: #fff;
 }
