@@ -1,55 +1,82 @@
 <!doctype html>
 <html>
+
 <head>
 	<link rel="stylesheet" href="../stylesheet.css">
 	<link href='https://fonts.googleapis.com/css?family=Indie+Flower|Architects+Daughter' rel='stylesheet' type='text/css'>
-		<title>Pop Anime Reviews!</title>
+	<title>Pop Anime Reviews!</title>
 </head>
+
 <body>
 	<a name="top"></a>
-		<header>
-			<a href="../home.html" id="returnhome" title="Home">Pop <span class="black">Anime</span> Reviews</a>
-		</header>
-		<nav>
-			<ul id="navlist">
-				<li><a href="../home.html" title="Home">Home</a></li>
-				<li><a href="../about.html" title="About">About</a></li>
-				<li class="active" title="Review List"><a href="reviewlist.html">Review List</a></li>
-				<li><a href="../contact.html" title="Contact Us">Contact Us</a></li>
+	<header>
+		<a href="../home.html" id="returnhome" title="Home">Pop
+			<span class="black">Anime</span> Reviews</a>
+	</header>
+	<nav>
+		<ul id="navlist">
+			<li>
+				<a href="../home.html" title="Home">Home</a>
+			</li>
+			<li>
+				<a href="../about.html" title="About">About</a>
+			</li>
+			<li class="active" title="Review List">
+				<a href="reviewlist.html">Review List</a>
+			</li>
+			<li>
+				<a href="../contact.html" title="Contact Us">Contact Us</a>
+			</li>
+		</ul>
+		<form>
+			<input type="text" name="search" id="search_bar" placeholder="Enter the title of an anime here" size="50">
+			<input type="submit" name="submit" value="Submit">
+		</form>
+	</nav>
+	<div id="content">
+		<div class="content-box">
+			<h1>Naruto: Shippuden Review
+				<span class="reviewer">by Edmund Viagedor</span>
+			</h1>
+			<iframe width="420" height="345" src="http://www.youtube.com/embed/O-QyCmzVTLQ" id="trailer"></iframe>
+			<p class="colormatch">Pros
+				<span style="color:#000;">:</span>
+			</p>
+			<ul>
+				<li>Very engaging and emotional story when the main story arc is being followed.</li>
+				<li>Lots of character development so you'll have an idea of where characters come from; physically and ideologically.</li>
+				<li>Fight scenes contain lots of action and is very fast-paced.</li>
+				<li>A variety of engaging characters so you will likely have more than one favorite character.</li>
+				<li>Story delves deep into Naruto lore so you can really understand how things in the Naruto world came to be.</li>
 			</ul>
-		</nav>
-		<div id="content">
-			<div class="content-box">
-				<h1>Naruto: Shippuden Review <span class="reviewer">by Edmund Viagedor</span></h1>
-					<iframe width="420" height="345" src="http://www.youtube.com/embed/O-QyCmzVTLQ" id="trailer"></iframe>
-						<p class="colormatch">Pros<span style="color:#000;">:</span></p>
-							<ul>
-								<li>Very engaging and emotional story when the main story arc is being followed.</li>
-								<li>Lots of character development so you'll have an idea of where characters come from; physically and ideologically.</li>
-								<li>Fight scenes contain lots of action and is very fast-paced.</li>
-								<li>A variety of engaging characters so you will likely have more than one favorite character.</li>
-								<li>Story delves deep into Naruto lore so you can really understand how things in the Naruto world came to be.</li>
-							</ul>
-						<p class="colormatch">Cons:</p>
-							<ul>
-								<li><span style="font-weight:bold;"> TOO MANY fillers!</span> (Story arcs which deviate from the main story)</li>
-								<li>Fillers are inserted during a main story arc, and often run for many episodes disrupting the flow of the main story.</li> 
-								<li>Animation can seem outdated at times, especially when you compare new episodes to older episodes.</li>
-								<li>Speaking of animation, during fight scenes animations can seem rushed and very clunky.</li>
-							</ul>	
-						<p class="colormatch">Rating: <span style="color:#000;">8.5/10</span></p>
-							<a href="reviewlist.html" style="float:right;" title="Return to list">Click here to view more reviews!</a>
-								<form>
-									Name:<br>
-									<input type="text" name="name" class="username">
-									<br>
-									Comments:<br>
-									<textarea cols="40" rows="7" name="comments" form="userform"></textarea>
-									<br><br>
-									<input type="submit" value="Submit">
-								</form>	
-			</div>
+			<p class="colormatch">Cons:</p>
+			<ul>
+				<li>
+					<span style="font-weight:bold;"> TOO MANY fillers!</span> (Story arcs which deviate from the main story)</li>
+				<li>Fillers are inserted during a main story arc, and often run for many episodes disrupting the flow of the main story.</li>
+				<li>Animation can seem outdated at times, especially when you compare new episodes to older episodes.</li>
+				<li>Speaking of animation, during fight scenes animations can seem rushed and very clunky.</li>
+			</ul>
+			<p class="colormatch">Rating:
+				<span style="color:#000;">8.5/10</span>
+			</p>
+			<a href="reviewlist.html" style="float:right;" title="Return to list">Click here to view more reviews!</a>
+			<form>
+				Name:
+				<br>
+				<input type="text" name="name" class="username">
+				<br> Comments:
+				<br>
+				<textarea cols="40" rows="7" name="comments" form="userform"></textarea>
+				<br>
+				<br>
+				<input type="submit" value="Submit">
+			</form>
 		</div>
-	<footer><a href="#top" class="return" title="Return to top">Click me to return to the top!</a></footer>
-</body>  
-</html>  
+	</div>
+	<footer>
+		<a href="#top" class="return" title="Return to top">Click me to return to the top!</a>
+	</footer>
+</body>
+
+</html>

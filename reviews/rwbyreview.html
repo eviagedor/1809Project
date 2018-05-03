@@ -1,56 +1,86 @@
 <!doctype html>
 <html>
+
 <head>
 	<link rel="stylesheet" href="../stylesheet.css">
 	<link href='https://fonts.googleapis.com/css?family=Indie+Flower|Architects+Daughter' rel='stylesheet' type='text/css'>
-		<title>Pop Anime Reviews!</title>
+	<title>Pop Anime Reviews!</title>
 </head>
+
 <body>
 	<a name="top"></a>
-		<header>
-			<a href="../home.html" id="returnhome" title="Home">Pop <span class="black">Anime</span> Reviews</a>
-		</header>
-		<nav>
-			<ul id="navlist">
-				<li><a href="../home.html" title="Home">Home</a></li>
-				<li><a href="../about.html" title="About">About</a></li>
-				<li class="active" title="Review List"><a href="reviewlist.html">Review List</a></li>
-				<li><a href="../contact.html" title="Contact Us">Contact Us</a></li>
+	<header>
+		<a href="../home.html" id="returnhome" title="Home">Pop
+			<span class="black">Anime</span> Reviews</a>
+	</header>
+	<nav>
+		<ul id="navlist">
+			<li>
+				<a href="../home.html" title="Home">Home</a>
+			</li>
+			<li>
+				<a href="../about.html" title="About">About</a>
+			</li>
+			<li class="active" title="Review List">
+				<a href="reviewlist.html">Review List</a>
+			</li>
+			<li>
+				<a href="../contact.html" title="Contact Us">Contact Us</a>
+			</li>
+		</ul>
+
+		<form>
+			<input type="text" name="search" id="search_bar" placeholder="Enter the title of an anime here" size="50">
+			<input type="submit" name="submit" value="Submit">
+		</form>
+	</nav>
+	<div id="content">
+		<div class="content-box">
+			<h1>RWBY Review
+				<span class="reviewer">by Roger Pilon</span>
+			</h1>
+			<iframe width="420" height="345" src="http://www.youtube.com/embed/pYW2GmHB5xs" id="trailer"></iframe>
+			<p class="colormatch">Pros
+				<span style="color:#000;">:</span>
+			</p>
+			<ul>
+				<li>Everything is a gun.</li>
+				<li>The fight scenes are well worked.</li>
+				<li>There is a nice correlation between the names of the teams and the hidden themes.</li>
+				<li>The story line is decently worked so that each character has a unique and relevant story as to how or why they are there.</li>
+				<li>The world is very detailed story wise which allows for much to be learned about the world, which is covered in the side
+					series called "World of Remenant".</li>
 			</ul>
-		</nav>
-		<div id="content">
-			<div class="content-box">
-				<h1>RWBY Review <span class="reviewer">by Roger Pilon</span></h1>
-					<iframe width="420" height="345" src="http://www.youtube.com/embed/pYW2GmHB5xs" id="trailer"></iframe>
-						<p class="colormatch">Pros<span style="color:#000;">:</span></p>
-							<ul>
-								<li>Everything is a gun.</li>
-								<li>The fight scenes are well worked.</li>
-								<li>There is a nice correlation between the names of the teams and the hidden themes.</li>
-								<li>The story line is decently worked so that each character has a unique and relevant story as to how or why they are there.</li>
-								<li>The world is very detailed story wise which allows for much to be learned about the world, which is covered in the side series called "World of Remenant".</li>
-							</ul>
-						<p class="colormatch">Cons:</p>
-							<ul>
-								<li>The animation is a little rough.</li>
-								<li>Some characters are a little out of place  when it comes to what is going on.</li>
-								<li>New characters become important too soon as well as they are not developed at all before they become important.</li>
-								<li>Story line is about the whole world but the events only take place in one city.</li>
-								<li>While the story is good, the show skips occasionally to later parts too soon, which causes minor confusion at important times.</li>
-							</ul>
-						<p class="colormatch">Rating: <span style="color:#000;">7/10</span></p>
-							<a href="reviewlist.html" style="float:right;" title="Return to list">Click here to view more reviews!</a>
-								<form>
-									Name:<br>
-									<input type="text" name="name" class="username">
-									<br>
-									Comments:<br>
-									<textarea cols="40" rows="7" name="comments" form="userform"></textarea>
-									<br><br>
-									<input type="submit" value="Submit">
-								</form>	
-			</div>
+			<p class="colormatch">Cons:</p>
+			<ul>
+				<li>The animation is a little rough.</li>
+				<li>Some characters are a little out of place when it comes to what is going on.</li>
+				<li>New characters become important too soon as well as they are not developed at all before they become important.</li>
+				<li>Story line is about the whole world but the events only take place in one city.</li>
+				<li>While the story is good, the show skips occasionally to later parts too soon, which causes minor confusion at important
+					times.
+				</li>
+			</ul>
+			<p class="colormatch">Rating:
+				<span style="color:#000;">7/10</span>
+			</p>
+			<a href="reviewlist.html" style="float:right;" title="Return to list">Click here to view more reviews!</a>
+			<form>
+				Name:
+				<br>
+				<input type="text" name="name" class="username">
+				<br> Comments:
+				<br>
+				<textarea cols="40" rows="7" name="comments" form="userform"></textarea>
+				<br>
+				<br>
+				<input type="submit" value="Submit">
+			</form>
 		</div>
-	<footer><a href="#top" class="return" title="Return to top">Click me to return to the top!</a></footer>
-</body>  
-</html>  
+	</div>
+	<footer>
+		<a href="#top" class="return" title="Return to top">Click me to return to the top!</a>
+	</footer>
+</body>
+
+</html>
